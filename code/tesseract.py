@@ -75,7 +75,7 @@ class TesseractOCR(OCR):
     if language is None or language == 'English':
       lan = 'eng'
     elif language == 'Latvian':
-      lan = 'lav2'
+      lan = 'lav'
     elif language == 'Russian':
       lan = 'rus'
     else:
